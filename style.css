@@ -87,8 +87,9 @@ border-width: 5px;
  
 }
 
-a {
+a:link {
   color:#9C8F78;
+  text-decoration: none;
 }
 
 a:visited {
@@ -97,6 +98,7 @@ a:visited {
 
 a:hover {
   color:#23599C;
+  text-decoration: underline;
 }
 
 section > h1, section > h2 {
