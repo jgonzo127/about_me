@@ -81,23 +81,28 @@ border-width: 5px;
   font-weight: bold;
   margin: 2em 0 1em 0;
 }
+
 .social > li{
   display: inline-block;
   margin-right: 1em;
- 
-}
+  
+ }
 
-a {
+.social a:link {
   color:#9C8F78;
+  text-decoration: none;
 }
 
-a:visited {
+.social a:visited {
   color:#23599C;
+  text-decoration: underline;  
 }
 
-a:hover {
+.social a:hover {
   color:#23599C;
+  text-decoration: underline;
 }
+
 
 section > h1, section > h2 {
   text-decoration: underline;
